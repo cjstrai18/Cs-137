@@ -1,7 +1,7 @@
 # K-Means Clustering and Band Analysis Tool
 
-This Python script performs K-Means clustering and related analysis on dose distribution data from radiation beam experiments.  
-It is designed to process data from Excel files, remove artifacts, and refine regions of interest (ROIs) for further analysis.
+This Python script performs K-Means clustering and related analysis on dose distribution data obtained from Film irradiated in the Cs-137 Vault.  
+It is designed to process radiation field data from Excel files (gotten from already existing MATLAB software), remove artifacts, and refine regions of interest (ROIs) for further analysis.
 
 ---
 
@@ -24,7 +24,7 @@ It is designed to process data from Excel files, remove artifacts, and refine re
 - Plots data with cluster assignments, representatives, and regression fits for user verification.
 
 ### Support for Multiple Datasets
-- Processes data from multiple Excel files specified in predefined paths.
+- Processes data from multiple Excel files specified in predefined paths. This data is obtained from using already established 
 
 ---
 
